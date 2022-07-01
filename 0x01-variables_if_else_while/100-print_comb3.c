@@ -20,7 +20,7 @@ int main(void)
 
 			if (counter < 89)
 			{
-				putchar('.');
+				putchar(',');
 				putchar(' ');
 			}
 		}
