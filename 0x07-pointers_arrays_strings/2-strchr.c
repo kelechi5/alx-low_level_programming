@@ -16,7 +16,7 @@ char *_strchr(char *s, char c)
 	while (s[counter] != '\0')
 	{
 		/*the string found the character*/
-		if (s[counter] == c);
+		if (s[counter] == c)
 		{
 			/*start printing from the s[counter] taken as 0*/
 			return (s + counter);
