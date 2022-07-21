@@ -1,12 +1,16 @@
 #include "main.h"
 
+
+
 /**
  * _strlen_recursion - size
  * @s: pointer to string params
  * Return: recursion
  */
 
+
 int _strlen_recursion(char *s)
+
 {
 	if (!*s)
 	{
@@ -35,6 +39,7 @@ int p1(char *s, int l)
 	return (0);
 }
 
+
 /**
  * is_palindrome - palindrome
  * @s: pointer to string
@@ -42,9 +47,8 @@ int p1(char *s, int l)
  */
 
 int is_palindrome(char *s)
-
 {
 	int len = _strlen_recursion(s);
-
+	
 	return (p1(s, len - 1));
 }
