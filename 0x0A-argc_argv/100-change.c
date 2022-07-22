@@ -3,10 +3,12 @@
 #include <stdlib.h>
 
 /**
- * main - A program that adds positive numbers
+ * main - A proogram that prints the minimum number of coins to
+ * make change for an amount of money
  * @argc: The arguments' counter
  * @argv: The argument's values
- * Return: Always 0 (Success)
+ * Return: 1 if the number of arguments passed is not exactly
+ * or 0 in otherwise
  */
 
 int main(int argc, char **argv)
