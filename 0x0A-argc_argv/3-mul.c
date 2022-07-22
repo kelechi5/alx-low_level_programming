@@ -1,0 +1,28 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - a program that multiplies 2 numbers
+ * @argc: argument counter
+ * @argv: arguement values
+ * return: always 0
+ */
+
+int main(int argc, char **argv)
+{
+	int i, j, result;
+
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	else
+	{
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
+		result = i * j;
+		printf("%d\n", result);
+		return (0);
+	}
+}
