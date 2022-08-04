@@ -6,7 +6,7 @@
  * main - calculator
  * @argc: argument counter
  * @argv: argument vector or pointer array
- * Return: 0 or Error
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
 	calc = get_op_func(argv[2]);
 	if (calc == NULL)
 	{
+		printf("Error\n");
 		exit(99);
 	}
 	r = calc(a, b);
